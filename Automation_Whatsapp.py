@@ -68,7 +68,7 @@ Number_list={
     "papa":"8280866602"
 }
 us=User(Number_list)
-Welcome_message="""---------------------------------THIS whatsapp WAS MAKE BY dEPAK---------------------------------"""
+Welcome_message="""---------------------------------THIS whatsapp WAS MAKE BY Sibashis---------------------------------"""
 Whatstapp_option="""\n1.Show contact list\n
 2.Add number\n
 3.Message send\n
@@ -107,7 +107,7 @@ while(True):
                 sibashis.send_message(Number_list[name],message,Hours_format.Hoursformat(Hours,format),Minutes,25)
                 # sibashis.send_message(Number_list[name],message,23,18,25)
             else:
-                number=input(f"Enter the number of {name}")
+                number=input(f"Enter the number of {name}: ")
                 us.adding_contact_list(name,number)
                 print(us.show_contact_list())
                 message=input(f"Enter the message for {name}: ")
